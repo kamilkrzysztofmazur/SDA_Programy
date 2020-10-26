@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viueport" content="width=device-width, initial-scale=1.0">
+        <title>Formularz</title>
+    </head>
+    <body>
+        <h1>Formularz kontaktowy</h1>
+        <form action="#" method="POST">
+        <p>
+            <label for="Name"> Imie:</label>
+            <input type="text" name="Name" id="Name" required/>
+            <label for="Surname">Nazwisko:</label>
+            <input type="text" name="Surname" id="Surname" required/>
+        </p>
+        <p>
+            <label for="Birthday_date">Data urodzenia</label>
+            <input type="date" name="Birthday_date" id="Birthday_date">
+        </p>
+        <p>
+            Płeć:
+            <input type="checkbox" name="Male" id="Male">
+            <label for="Male">Mężczyzna</label>
+
+            <input type="checkbox" name="Female" id="Female">
+            <label for="Female">Kobieta</label>
+        </p>
+        <p>
+            <textarea name="Comments" id="Comments" cols="30" rows="10" placeholder="Wpisz swoje uwagi"></textarea>
+        </p>
+        <p>
+            <button type="submit">Wyślij zgłoszenie</button>
+        </p>
+        </form>
+
+    </body>    
+</html>

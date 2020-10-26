@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szablon strony</title>
+    <style>
+         :root {
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+       body {
+           padding: 10px;
+           background-color: white; 
+       }
+       
+       .header {
+            padding: 10px;
+            text-align: center;
+            background-color: powderblue;
+
+       }
+
+       .header h1 {
+           font-size: 50px;
+       }
+
+       .header h2 {
+        font-size: 25px;
+        font-style: italic;
+        letter-spacing: 2 px;
+
+       }
+
+       .main-menu {
+           overflow: hidden;
+           background-color: gray;
+       }
+
+       .main-menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        .main-menu a:hover {
+            background-color: lightgrey;
+            color: black;
+        }
+
+        .content {
+            overflow: auto;
+            padding: 5px 10 px;
+        }
+
+        .content .content-left {
+            background-color: powderblue;
+            float: left;
+            padding: 10px;
+            width: 20%;
+            
+        }
+
+        .content .content-main {
+            background-color: powderblue;
+            float: left;
+            padding: 10px;
+            width: 60%;
+            border-left: 2px solid gray;
+            
+        }
+
+        .content .content-right {
+            background-color: powderblue;
+            float: ;
+            padding: 10px;
+            width: 20%;
+            border-left: 2px solid gray;
+            
+        }
+        .footer {
+            padding: 10px;
+            background-color: gray;
+            text-align: center;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My project</h1>
+        <h2>My hiper-super project about CSS!</h2>
+    </div>
+    <div class="main-menu">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <div class="content">
+        <div class="content-left">
+            <p>Menu</p>
+        </div>
+        <div class="content-main">
+            <p>Main content</p>
+        </div>
+        <div class="content-right">
+            <p>Some extras</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>

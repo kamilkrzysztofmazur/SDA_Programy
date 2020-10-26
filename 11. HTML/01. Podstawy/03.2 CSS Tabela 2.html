@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szablon strony</title>
+    <style>
+        :root {
+            font-size: 14px;
+            font-family: Verdana, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+       body {
+           padding: 10px;
+           background-color: white; 
+       }
+       .main-menu {
+            overflow: hidden;
+            background-color: gray;
+        }
+
+       .main-menu .left {
+           background-color: black;
+            display: block;
+           float: left;
+           color: white;    
+           text-align: center;
+           text-decoration: none;
+           padding: 10px 10px;
+       }
+
+       .main-menu .right {
+           background-color: black;
+            display: block;
+           float: right;
+           color: white;    
+           text-align: center;
+           text-decoration: none;
+           padding: 10px 10px;
+       }
+
+       .header {
+           background-color: lightgray;
+           display: block;
+           text-align: center;
+       }
+       .header h1 {
+           padding: 20px;
+           font-size: 50px;
+       }
+       .header h2 {
+           padding: 10px;
+           font-size: 30px;
+       }
+       .content {
+           margin-top: 10px;
+           margin-bottom: 10px;
+           overflow: auto;
+       }
+
+       .content .left-menu {
+           width: 15%;
+           background-color: gray;
+           float: left;
+
+       }
+
+       .content .left-menu a {
+           display: block;
+           padding: 10px 10px;
+           color: white;
+           text-decoration: none;
+       }
+
+       .content .main {
+            width: 85%;
+            float: left;
+       }
+
+       .content .main p {
+           display: block;
+           padding: 10px 10px;
+           color: gray;
+       }
+
+       .footer {
+           background-color: lightgray;
+           overflow: hidden;
+       }
+       
+       .footer .left {
+           float: left;
+           color: gray;
+       }
+
+       .footer .right {
+           float: right;
+           color: gray;
+       }
+
+    </style>
+    
+</head>
+<body>
+    <div class="main-menu">
+        <a class="left" href="#">Link 1</a>
+        <a class="left" href="#">Link 2</a>
+        <a class="left" href="#">Link 3</a>
+        <a class="right" href="#">Link 4</a>
+        <a class="right" href="#">Link 5</a>
+    </div>
+    <div class="header">
+        <h1>Main title</h1>
+        <h2>Subtitle</h2>
+    </div>
+    <div class="content">
+        <div class="left-menu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        <div class="main">
+            <p>Główna treść strony</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left">Author</div>
+        <div class="right">Wszystkie prawa zastrzeżone, 2020</div>
+    </div>
+</body>
+</html>

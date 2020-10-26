@@ -1,0 +1,36 @@
+
+* {margin: 0 ; padding: 0 }
+
+body {
+    overflow: hidden;
+    background: url('Background1.jpg');
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    font: 15pt Bradley Hand, cursive;
+    color: pink; 
+}
+
+h1 {
+    text-align: center;
+}
+ 
+h4 {
+    width: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.menu {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu input[type=text] {
+    padding: 10px;
+}
+    
+

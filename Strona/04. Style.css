@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: transparent url(Background3.JPG) no-repeat top left;
+    background-size: cover;
+    background-color: #ffffff;
+	width: 1972px;
+	height: 667px;
+	font-family: Verdana; 
+	font-size: 11px;
+	line-height: 110%;
+	color: #333333;
+}
+
+.page-wrapper {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+    font: 36pt Bradley Hand, cursive;
+    color: aliceblue;
+    }

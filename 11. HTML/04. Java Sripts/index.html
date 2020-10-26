@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+            <div id="existing-element">
+                <p>Hello</p>
+            </div>
+            <script type="text/javascript">
+                const father = document.getElementsById('existing-element')
+                for (let i = 0; i < 7; i++) {
+                    const child = document.createElement('div');
+                    const child2 = document.createElement('p');
+                    child.appendChild(child2);
+                    child2.textContent = 1
+                    father.appendChild(child);
+                    }               
+
+
+            
+            </script>
+    </body>
+
+</html>

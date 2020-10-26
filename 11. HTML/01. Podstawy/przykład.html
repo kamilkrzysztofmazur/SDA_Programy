@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze 2 - zadanie instruktażowe</title>
+</head>
+<body>
+    <h1>Pomóż nam wybrać, który samochód do Ciebie najlepiej pasuje</h1>
+    <form method="post" action="#" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Podstawowe dane</legend>
+            <p>
+                <label for="made">Marka: <select name="made" id="made">
+                    <option value="-">-- Wybierz markę --</option>
+                    <option value="Skoda">Skoda</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Tesla">Tesla</option>
+                </select></label>
+            </p>
+            <p>
+                <label>Typ:
+                    <input type="radio" name="type" value="Sedan"/>Sedan
+                    <input type="radio" name="type" value="SUV"/>SUV
+                    <input type="radio" name="type" value="Combi"/>Combi
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <label>Preferencje</label>
+            <p>
+                <label for="year">Rok produkcji:
+                    <input type="number" id="year" value="2020" placeholder="Podaj akceptowalny rok produkcji"/>
+                </label>
+            </p>
+            <p>
+                <label>Kolor nadwozia:</label><br/>
+                <input type="checkbox" name="color" value="zielony"/>Zielony<br/>
+                <input type="checkbox" name="color" value="czerwony"/>Czerwony<br/>
+                <input type="checkbox" name="color" value="biały"/>Biały<br/>
+                <input type="checkbox" name="color" value="szary metalic"/>Szary metalic<br/>
+            </p>
+            <p>
+                <label for="photo">Dodaj zdjęcie Twojego wymarzonego auta:
+                    <input type="file" name="photo" id="photo" accept="image/*"/>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label>Wyślij</label>
+                <button type="submit">Wyślij</button>
+                <button type="reset">Wyczyść</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
